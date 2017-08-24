@@ -87,7 +87,7 @@ body {
     float: right
 }
 
-.btn-1a:hover, .btn-1b:hover{
+.btn-1a:hover, .btn-1b:hover, .btn-1c:hover{
   background: #f40612;
 
 }
@@ -102,6 +102,7 @@ body {
 	position: relative;
 	width: auto;
 	background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1));
+/*	margin-bottom: */
 }
 
 .btn-1b{
@@ -120,6 +121,21 @@ body {
 	
 	padding: 15 0 15 0; 
 }
+.btn-1c{
+	font-family: Arial, sans-serif;
+	position: relative;    
+	font-size: 14px;
+	letter-spacing: 1.9px;
+	font-weight: 400;
+	background: #bb0a12;
+	box-shadow: 0 1px 0 rgba(0,0,0,.45);
+	text-decoration: none;
+	overflow: hidden;
+    float: left;
+/*	margin-left: 20;*/
+	
+/*	padding: ; */
+}
 
 #grad1{
 	height:inherit;
@@ -127,8 +143,112 @@ body {
 }
 
 .middle-banner{
-	background-color: #333
+	background-color: #141414;
+	margin-bottom: -18;
 }
+
+.middle-banner .row{
+	padding-top: 20;
+	padding-bottom: 20;
+		
+}
+
+.col-md-4 img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block
+}
+
+.middle-banner .col-md-4 h6{
+	color: #5e5e5e;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight:700;
+	color: #777;
+	text-align: center;
+
+}
+
+.col-md-8 h4{
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	color: white;
+	font-weight:bold;
+	float: right;
+	
+	margin-right: 150;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.col-md-4 button{
+	font-family: Arial, sans-serif;
+	position: absolute;    
+	font-size: 14px;
+	letter-spacing: 1.9px;
+	font-weight: 400;
+	background: #bb0a12;
+	box-shadow: 0 1px 0 rgba(0,0,0,.45);
+	text-decoration: none;
+	overflow: hidden;
+    float: left;
+	
+	padding-left: 25;
+	padding-right: 220;
+	padding-top: 20;
+	padding-bottom: 20;
+	
+	margin-top:auto;
+	margin-bottom: auto
+}
+
+.end{
+	margin-top: 40;
+}
+
+.end .row{
+	margin-bottom: 35;
+}
+
+.end-banner .col-md-4{
+	float: right;
+	margin-top: 35;
+}
+
+.end .end-banner .row h4{
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	font-size: 20;
+	font-weight: bold;
+	text-align: center
+}
+
+.end .end-banner .row p{
+	color: #5e5e5e;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-align: center
+}
+
+.end .end-banner .row .col-md-2 p{
+	color: #999;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size: 14;
+	
+}
+
+.links{
+	margin-top: 75;
+}
+
 /*
 
 .row, .col-md-6{
