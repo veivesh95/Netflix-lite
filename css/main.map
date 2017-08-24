@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_variables.scss",
+		"../scss/_mixing.scss",
+		"../scss/_netflixlite.scss"
+	],
+	"sourcesContent": [
+		"@import \"_variables.scss\";\r\n@import \"_mixing.scss\";\r\n@import \"_netflixlite.scss\";\r\n//\r\n//$primary-font-color: white;\r\n//$secondary-font-color: #c2c2d6;\r\n//\r\n////$button-text-color: white;\r\n//\r\n//$button-text-weight: lighter;\r\n//$button-background-color: #B9090B;\r\n//\r\n//$big-text-font: 'Helvetica Neue',Helvetica,Arial,sans-serif;\r\n//$big-text-bgcolor: #333;\r\n//\r\n//$primary-display: block;\r\n//\r\n//.logo{\r\n//    display: $primary-display;\r\n//    \r\n//}\r\n",
+		"$primary-color: blue;\r\n$font-stack: Helvetica, sans-serif;",
+		"",
+		"body {\r\n\r\nfont-family: $font-stack;\r\ncolor: $primary-color;\r\n\r\n}\r\n\r\nh1{\r\n    color: $primary-color;\r\n}"
+	],
+	"mappings": ";AGAA,AAAA,IAAI,CAAC;EAEL,WAAW,EFDE,SAAS,EAAE,UAAU;EEElC,KAAK,EFHW,IAAI,GEKnB;;;AAED,AAAA,EAAE,CAAA;EACE,KAAK,EFRO,IAAI,GESnB",
+	"names": []
+}
